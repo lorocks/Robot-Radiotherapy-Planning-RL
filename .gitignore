@@ -1,0 +1,6 @@
+build/
+log/
+install/
+src/.vscode/
+src/panda_robot/.vscode/
+src/panda_training/.vscode/
