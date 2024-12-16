@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(lab_moveit_config)
+project(robot_moveit_config)
 
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)

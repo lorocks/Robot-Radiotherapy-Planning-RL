@@ -13,7 +13,7 @@
       <visual>
         <origin xyz="0.3385 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find lab_description)/meshes/table/table_demo.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find launch_robot)/meshes/table/table_demo.stl" scale="0.001 0.001 0.001"/>
         </geometry>
         <material name="silver">
           <color rgba="0.700 0.700 0.700 1.000"/>
@@ -23,7 +23,7 @@
       <collision>
         <origin xyz="0.3385 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="file://$(find lab_description)/meshes/table/table_demo.stl" scale="0.001 0.001 0.001"/>
+          <mesh filename="file://$(find launch_robot)/meshes/table/table_demo.stl" scale="0.001 0.001 0.001"/>
         </geometry>
       </collision>
     </link>
