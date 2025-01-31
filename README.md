@@ -18,6 +18,12 @@ Reward tiers are as follows,
  - when D(g) = 0, (1/E) + 1
  - when green is present in image, 1/(D(g) + E)
 
+$R(s) = \begin{cases}  
+  \frac{1}{D(g) + \epsilon}, & \text{when green is present in the image}\\
+  \frac{1}{\epsilon} + 1, & \text{when $D(g) = 0$ }\\
+  -1, & \text{when green disappears from the image}
+\end{cases}$
+
 Here, D(g) is the distance between the centroid of the green object and the center of the camera image and E is a small number where 0 < E < 1.
 
 Curently the rewards do not take into account the depth from the required target.
