@@ -14,9 +14,6 @@ The observation is the 2D view of the point cloud taken from a camera attached o
 The reward for actions performed is given based on the distance of the centroid of the green object from the center of the image. There is a special condition where if the green object disappears from the image, a negative reward is given.
 
 Reward tiers are as follows,
- - when green disappears, -1
- - when D(g) = 0, (1/E) + 1
- - when green is present in image, 1/(D(g) + E)
 
 $$R(s) = \begin{cases}  
   \frac{1}{D(g) + \epsilon}, & \text{when green is present in the image}\\
