@@ -24,6 +24,8 @@ $$R(s) = \begin{cases}
 Here, D(g) is the distance between the centroid of the green object and the center of the camera image and E is a small number where 0 < E < 1.
 
 Curently the rewards do not take into account the depth from the required target.
+For depth, the camera needs to be outside the workspace, and thus the distance metric for this varies based on the random configuration of items generated in the environment.
+
 
 ## Question to be answered
 How many features and depth of convolution is required for the network to learn depth and color at the same time
