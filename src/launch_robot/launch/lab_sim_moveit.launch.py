@@ -61,7 +61,6 @@ def launch_setup(context, *args, **kwargs):
         launch_arguments={
             "ur_type": ur_type,
             "safety_limits": safety_limits,
-            "runtime_config_package": runtime_config_package,
             "controllers_file": controllers_file,
             "description_package": description_package,
             "description_file": description_file,

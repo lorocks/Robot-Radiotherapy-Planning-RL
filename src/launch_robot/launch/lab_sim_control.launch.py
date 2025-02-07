@@ -61,7 +61,7 @@ def launch_setup(context, *args, **kwargs):
     launch_rviz = LaunchConfiguration("launch_rviz")
 
     initial_joint_controllers = PathJoinSubstitution(
-        [FindPackageShare(runtime_config_package), "config", controllers_file]
+        [FindPackageShare("launch_robot"), "config", controllers_file]
     )
 
     rviz_config_file = PathJoinSubstitution(

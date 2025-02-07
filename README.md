@@ -6,7 +6,7 @@ The observation is the 2D view of the point cloud taken from a camera attached o
 ```bash
   ros2 launch lab_simulation_gazebo lab_sim_moveit.launch.py ur_type:=ur3e description_package:=lab_description description_file:=lab.urdf.xacro moveit_config_package:=lab_moveit_config moveit_config_file:=lab.srdf.xacro runtime_config_package:=lab_simulation_gazebo launch_rviz:=false
 
-  ros2 launch launch_robot lab_sim_moveit.launch.py ur_type:=ur3e description_package:=launch_robot description_file:=lab.urdf.xacro moveit_config_package:=robot_moveit_config moveit_config_file:=lab.srdf.xacro runtime_config_package:=launch_robot launch_rviz:=false
+  ros2 launch launch_robot lab_sim_moveit.launch.py ur_type:=ur3e description_package:=launch_robot description_file:=lab.urdf.xacro moveit_config_package:=robot_moveit_config moveit_config_file:=lab.srdf.xacro
 ```
 
 
@@ -30,3 +30,12 @@ For depth, the camera needs to be outside the workspace, and thus the distance m
 ## Question to be answered
 How many features and depth of convolution is required for the network to learn depth and color at the same time
 
+Training types
+ - train purely using Gazebo
+ - train purely using RViZ
+
+Moveit should work for both, just take image and output change in position values and change in orientation then reward it.
+
+
+## Current Problems
+Need to edit launch file to work so that RViz can launch by itself with controller working properly. Works only if gazebo is launched right now. (or just use gazebo for training)
