@@ -1,6 +1,7 @@
 build/
 log/
 install/
+.vscode/
 src/.vscode/
 src/panda_robot/.vscode/
 src/panda_training/.vscode/

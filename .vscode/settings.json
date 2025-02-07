@@ -9,5 +9,16 @@
         "/home/lorocks/ros2/moveit2/install/launch_param_builder/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/lorocks/ros2/Robot-Radiotherapy-Planning-RL/install/robot_moveit_config/local/lib/python3.10/dist-packages",
+        "/home/lorocks/lab-workspace/install/lab_moveit_config/local/lib/python3.10/dist-packages",
+        "/home/lorocks/lab-workspace/install/lab8/local/lib/python3.10/dist-packages",
+        "/home/lorocks/ros2/moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/lorocks/ros2/moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/lorocks/ros2/moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/lorocks/ros2/moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ]
 }
